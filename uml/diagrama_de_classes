@@ -27,9 +27,6 @@ class Reserva {
     +dataInicio: DateTime
     +dataFim: DateTime
     +valorTotal: Decimal
-    --
-    +ehPeriodoValido()
-    +conflitaCom(r: Reserva)
 }
 
 class Pagamento {
@@ -47,5 +44,4 @@ enum StatusPagamento {
 Usuario "1" -- "0..*" Reserva
 Espaco "1" -- "0..*" Reserva
 Reserva "1" -- "1" Pagamento
-
 @enduml
