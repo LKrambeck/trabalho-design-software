@@ -1,6 +1,6 @@
-from domain.pagamento import PagamentoRequest, PagamentoDBSchema
-from repository.pagamento import PagamentoRepository
-from repository.reserva import ReservaRepository
+from app.domain.pagamento import PagamentoRequest, PagamentoDBSchema
+from app.repository.pagamento import PagamentoRepository
+from app.repository.reserva import ReservaRepository
 
 class NotFoundException(Exception):
     pass

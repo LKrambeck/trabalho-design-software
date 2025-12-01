@@ -1,8 +1,8 @@
 from fastapi import FastAPI
-from routers.espaco import espaco_router
-from routers.usuario import usuario_router
-from routers.pagamento import pagamento_router
-from routers.reserva import reserva_router
+from app.routers.espaco import espaco_router
+from app.routers.usuario import usuario_router
+from app.routers.pagamento import pagamento_router
+from app.routers.reserva import reserva_router
 
 app = FastAPI(title="Meu cantinho", version="1.0.0")
 

@@ -1,4 +1,4 @@
-from domain.espaco import EspacoDBSchema, EspacoRequest
+from app.domain.espaco import EspacoDBSchema, EspacoRequest
 from typing import List, Optional
 from json import dump, load
 import os

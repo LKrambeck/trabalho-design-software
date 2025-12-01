@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Response
-from domain.pagamento import PagamentoRequest, PagamentoDBSchema
-from service.pagamento import PagamentoService, NotFoundException
+from app.domain.pagamento import PagamentoRequest, PagamentoDBSchema
+from app.service.pagamento import PagamentoService, NotFoundException
 
 pagamento_router = APIRouter(prefix="/pagamento", tags=["Pagamento"])
 

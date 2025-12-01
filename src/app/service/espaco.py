@@ -1,5 +1,5 @@
-from domain.espaco import EspacoRequest
-from repository.espaco import EspacoRepository, EspacoDBSchema
+from app.domain.espaco import EspacoRequest
+from app.repository.espaco import EspacoRepository, EspacoDBSchema
 
 class NotFoundException(Exception):
     pass

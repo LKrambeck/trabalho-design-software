@@ -1,5 +1,5 @@
+from app.domain.reserva import ReservaDBSchema, ReservaRequest
 from datetime import date
-from domain.reserva import ReservaDBSchema, ReservaRequest
 from typing import List, Optional
 from json import dump, load
 import os

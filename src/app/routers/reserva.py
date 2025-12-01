@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Response
-from domain.reserva import ReservaRequest, ReservaDBSchema
-from service.reserva import ReservaService, NotFoundException
+from app.domain.reserva import ReservaRequest, ReservaDBSchema
+from app.service.reserva import ReservaService, NotFoundException
 
 reserva_router = APIRouter(prefix="/reserva", tags=["Reserva"])
 
