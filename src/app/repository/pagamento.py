@@ -1,5 +1,5 @@
+from app.domain.pagamento import PagamentoDBSchema, PagamentoRequest
 from datetime import datetime
-from domain.pagamento import PagamentoDBSchema, PagamentoRequest
 from typing import List, Optional
 from json import dump, load
 import os

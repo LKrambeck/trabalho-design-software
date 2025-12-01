@@ -1,7 +1,9 @@
-from fastapi import APIRouter, Response
-from domain.espaco import EspacoRequest, EspacoDBSchema
-# from repository.espaco import EspacoRepository
-from service.espaco import EspacoService, NotFoundException
+from app.domain.espaco import EspacoRequest
+from app.domain.espaco import EspacoDBSchema
+from app.service.espaco import EspacoService
+from app.service.espaco import NotFoundException
+from fastapi import APIRouter
+from fastapi import Response
 
 espaco_router = APIRouter(prefix="/espaco", tags=["Espaço"])
 

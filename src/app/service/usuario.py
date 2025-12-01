@@ -1,5 +1,5 @@
-from domain.usuario import UsuarioRequest
-from repository.usuario import UsuarioRepository, UsuarioDBSchema
+from app.domain.usuario import UsuarioRequest
+from app.repository.usuario import UsuarioRepository, UsuarioDBSchema
 
 class NotFoundException(Exception):
     pass

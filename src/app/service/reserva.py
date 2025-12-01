@@ -1,10 +1,9 @@
-from domain.reserva import ReservaRequest, ReservaDBSchema
-from domain.pagamento import PagamentoRequest
-from repository.reserva import ReservaRepository
-from repository.pagamento import PagamentoRepository
-# from service.espaco import NotFoundException as EspacoNotFoundException
-from service.espaco import EspacoService
-from service.usuario import UsuarioService
+from app.domain.reserva import ReservaRequest, ReservaDBSchema
+from app.domain.pagamento import PagamentoRequest
+from app.repository.reserva import ReservaRepository
+from app.repository.pagamento import PagamentoRepository
+from app.service.espaco import EspacoService
+from app.service.usuario import UsuarioService
 
 class NotFoundException(Exception):
     pass

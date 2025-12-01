@@ -1,4 +1,4 @@
-from domain.usuario import UsuarioDBSchema, UsuarioRequest
+from app.domain.usuario import UsuarioDBSchema, UsuarioRequest
 from typing import List, Optional
 from json import dump, load
 import os

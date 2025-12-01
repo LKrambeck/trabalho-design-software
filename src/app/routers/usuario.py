@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Response
-from domain.usuario import UsuarioRequest, UsuarioDBSchema
-from service.usuario import UsuarioService, NotFoundException
+from app.domain.usuario import UsuarioRequest, UsuarioDBSchema
+from app.service.usuario import UsuarioService, NotFoundException
 
 usuario_router = APIRouter(prefix="/usuario", tags=["Usuário"])
 
